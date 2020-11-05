@@ -1,0 +1,398 @@
+<html>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Dancing+Script:700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+
+    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio | Responsive Website Design</title>
+  </head>
+  <body>
+   <!-- header//Nav bar-->
+    <header>
+      <a href="#" class="logo">Thejashree | Portfolio</a>
+      <div class="toggle" onclick="toggleMenu();"></div>
+      <ul class="menu">
+        <li>
+          <a href="#home" class="menu-item" onclick="toggleMenu();">Home</a>
+        </li>
+        <li>
+          <a href="#about" class="menu-item" onclick="toggleMenu();">About</a>
+        </li>
+        <li>
+          <a href="#work" class="menu-item" onclick="toggleMenu();">Skills</a>
+        </li>
+        <li>
+          <a href="#services" class="menu-item" onclick="toggleMenu();"
+            >Work Experience</a
+          >
+        </li>
+        <li>
+          <a href="#testimonial" class="menu-item" onclick="toggleMenu();"
+            >Education</a
+          >
+        </li>
+        <li>
+          <a href="#contact" class="menu-item" onclick="toggleMenu();"
+            >Contact Me</a
+          >
+        </li>
+      </ul>
+    </header>
+<!-- short note of myself and an image-->
+    <section class="banner" id="home">
+      <div class="testimonial-slider textBx">
+        <ul class="slider">
+          <li>
+            <div class="testimonial-slider-content">
+              <p class="source">- Hello,</p>
+              <q class="glow"
+                >I'm <span class="banner-slogan">Thejashree!!</span></q
+              >
+            </div>
+          </li>
+          <li>
+            <div class="testimonial-slider-content">
+              <p class="source">I believe I'm a,</p>
+              <q class="glow"
+                >creative UI<span class="banner-slogan">designer!</span></q
+              >
+            </div>
+          </li>
+          <li>
+            <div class="testimonial-slider-content">
+              <p class="source">And a,</p>
+              <q class="glow"
+                >software <span class="banner-slogan">developer!</span></q
+              >
+            </div>
+          </li>
+          <li>
+            <div class="testimonial-slider-content">
+              <p class="source">Lastly,</p>
+              <q class="glow"
+                >a passionate <span class="banner-slogan">volunteer!</span></q
+              >
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+<!-- about me section-->
+    <section class="about" id="about">
+      <div class="heading">
+        <h2>About Me</h2>
+      </div>
+      <div class="content">
+        <div class="w50">
+          <img class="about-image" src="assets/myProfile.jpg" alt="profile picture"/>
+        </div>
+        <div class="w50 about-text">
+          <p id="about-text">
+            I'm a passionate front-end developer who believe in digitalizing products for the people with a simple content structure. Also, being a magician for children and a clown from the team Humanitarian Clowns Bangalore draws me to a satisfaction of giving back a little part and time to the society. Lastly I am a math tutor, who enjoy numbers!!
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- moving content display-->
+    <div class="scroll-left">
+      <p>
+        ** Expertise in designing, developing and maintaining
+        web applications. ** Excellent client handling and interpersonal skills with positive work ethics
+      </p>
+    </div>
+
+    <section class="work" id="work">
+      <div class="heading">
+        <h2>Front-End Skills</h2>
+      </div>
+      <div class="content">
+        <div class="workBx">
+          <img src="assets/html5_img.png" alt="icon of HTML"/>
+          <h1>HTML5</h1>
+        </div>
+        <div class="workBx">
+          <img src="assets/css3_img.png" alt="icon of CSS"/>
+          <h1>CSS3</h1>
+        </div>
+        <div class="workBx">
+          <img src="assets/bootstrap.png" alt="icon of Bootstrap"/>
+          <h1>Bootstrap</h1>
+        </div>
+        <div class="workBx">
+          <img src="assets/js_img.png" alt="icon of JavaScript"/>
+          <h1>JavaScript</h1>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="workBx">
+          <img src="assets/ts.jpg" alt="icon of TypeScript"/>
+          <h1>TypeScript</h1>
+        </div>
+        <div class="workBx">
+          <img src="assets/angular_img.png" alt="icon of Angular" />
+          <h1>Angular</h1>
+        </div>
+        <div class="workBx">
+          <img src="assets/react_img.png" alt="icon of ReactJS"/>
+          <h1>ReactJS</h1>
+        </div>
+        <div class="workBx">
+          <img src="assets/git.png" alt="icon of GIt/GitHub"/>
+          <h1>Git/GitHub</h1>
+        </div>
+      </div>
+
+      <div class="heading">
+        <a
+          href="assets/Thejashree_Makam_S.pdf"
+          target="_blank"
+          download
+          class="btn"
+          >Click here for my resume!!</a
+        >
+      </div>
+    </section>
+<!-- professional experience-->
+    <section class="services" id="services">
+      <div class="heading white">
+        <h2>Work Experience</h2>
+        <p>To work as an engineer is my pride!!</p>
+      </div>
+
+      <div class="container">
+        <h3 class="text-center">Ross Videos</h3>
+        <div class="experience">
+          <div class="item">
+            <h5 class="company-name">Absolute Positioning System</h5>
+            <div class="location">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>Canada
+            </div>
+            <div class="job-info">
+              <div class="title">Student Consultant</div>
+              <div>Apr 2020 - Aug  2020</div>
+            </div>
+            <div>
+              <ul class="fa-ul">
+                <li>
+                  <i class="fa-li fa fa-hand-o-right"></i>Consultancy project was to perform a technical competitive analysis of APS (Absolute Positioning Systems) used in the market.
+                </li>
+                <li>
+                  <i class="fa-li fa fa-hand-o-right"></i>This was with an intention of exploring the possibilities of integration with robotic systems of Ross Video.
+                </li>
+                <li>
+                  <i class="fa-li fa fa-hand-o-right"></i>To understand the needs of the client to recommend a feasible solution for their current system
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container">
+        <h3 class="text-center">Wipro Pvt. Ltd.</h3>
+        <div class="experience">
+          <div class="item">
+            <h5 class="company-name">AMG - Application Management Group</h5>
+            <div class="location">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>India
+            </div>
+            <div class="job-info">
+              <div class="title">Project Engineer</div>
+              <div>Aug 2018 - Jul 2019</div>
+            </div>
+            <div>
+              <ul class="fa-ul">
+                <li>
+                  <i class="fa-li fa fa-hand-o-right"></i>Developed a flexible and well-structured front-end architecture, along with the APIs.
+                </li>
+                <li>
+                  <i class="fa-li fa fa-hand-o-right"></i>Designed and developed Web-based applications using core C# concepts and MVC, WCF and ASP.Net WebAPI architecture.
+                </li>
+                <li>
+                  <i class="fa-li fa fa-hand-o-right"></i>Worked collaboratively in cross-functional teams on end-to-end system integration and peer code reviews.
+                </li>
+              </ul>
+            </div>
+          </div>    
+          <div class="item">
+            <h5 class="company-name">LBG - Lloyd's Banking Group</h5>
+            <div class="location">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>India
+            </div>
+            <div class="job-info">
+              <div class="title">Project Engineer</div>
+              <div>Jan 2018 - Aug 2018</div>
+            </div>
+            <div>
+              <ul class="fa-ul">
+                <li>
+                  <i class="fa-li fa fa-hand-o-right"></i>Revamped applications based on Centura to Dot-Net based applications.
+                </li>
+                <li>
+                  <i class="fa-li fa fa-hand-o-right"></i>Redesigned applications using HTML, CSS, Javascript, Typescript and other front-end technologies.
+                </li>
+                <li>
+                  <i class="fa-li fa fa-hand-o-right"></i>Used Git to co-ordinate and collaborate within the development team.
+                </li>
+                <li>
+                  <i class="fa-li fa fa-hand-o-right"></i>Implemented HTTP Web Services.
+                </li>
+              </ul>
+            </div>
+          </div>  
+          <div class="item">
+            <h5 class="company-name">US Bank</h5>
+            <div class="location">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>India
+            </div>
+            <div class="job-info">
+              <div class="title">Project Engineer</div>
+              <div>Mar 2017 - Jan 2018</div>
+            </div>
+            <div>
+              <ul class="fa-ul">
+                <li>
+                  <i class="fa-li fa fa-hand-o-right"></i>Produced user-friendly software using Angular, MVC, ASP.Net according to the agreed plans and timelines.
+                </li>
+                <li>
+                  <i class="fa-li fa fa-hand-o-right"></i>Analyzed client requirements and designed development templates.
+                </li>
+                <li>
+                  <i class="fa-li fa fa-hand-o-right"></i>Participated in scrum calls and client meetings to make good technical decisions.
+                </li>
+                <li>
+                  <i class="fa-li fa fa-hand-o-right"></i>Involved directly in unit testing and code review.
+                </li>
+              </ul>
+            </div>
+          </div>        
+        </div>
+      </div>
+            <div class="container">
+        <h3 class="text-center">Amrockey Technologies</h3>
+        <div class="experience">
+          <div class="item">
+            <h5 class="company-name">Web Development</h5>
+            <div class="location">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>India
+            </div>
+            <div class="job-info">
+              <div class="title">Software Intern</div>
+              <div>Jun 2016 - Dec  2016</div>
+            </div>
+            <div>
+              <ul class="fa-ul">
+                <li>
+                  <i class="fa-li fa fa-hand-o-right"></i>Completed coding boot camp about website building and relevant technologies.
+                </li>
+                <li>
+                  <i class="fa-li fa fa-hand-o-right"></i>Involved with senior engineers and so as to understand the current applications.
+                </li>
+                <li>
+                  <i class="fa-li fa fa-hand-o-right"></i>Involved in coding and debugging software applciations and experimenting with design elements.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- Education-->
+    <section class="services testimonial" id="testimonial">
+      <div class="heading">
+        <h2>Education</h2>
+      </div>
+
+      <div class="content">
+        <div class="servicesBx">
+          <img
+            src="https://www.flaticon.com/svg/static/icons/svg/2905/2905113.svg" alt="background image for bachelor's education"
+          />
+          <h2>Bachelor's in Engineering</h2>
+          <p>
+            Information science is interesting and joyful.
+          </p>
+        </div>
+        <div class="servicesBx">
+          <img
+            src="https://www.flaticon.com/svg/static/icons/svg/84/84471.svg" alt="background image for master's education"
+          />
+          <h2>Master's in Engineering Management</h2>
+          <p>
+            Management is an art, to be an artist is not easy!!
+          </p>
+        </div>
+      </div>
+    </section>
+<!-- contact me with a form -->
+    <section class="contact" id="contact">
+      <div class="heading white">
+        <p>Thanks for reaching out to me!!</p>
+      </div>
+      <div class="content">
+        <div class="contactInfo">
+          <h3>Contact Info</h3>
+          <div class="contactInfoBx">
+            <div class="box">
+              <div class="icon">
+                <i class="fa fa-map-marker"></i>
+              </div>
+              <div class="text">
+                <h3>Address</h3>
+                <p>
+                  Lycee place<br />Ottawa<br />ON
+                </p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="icon">
+                <i class="fa fa-phone"></i>
+              </div>
+              <div class="text">
+                <h3>Phone</h3>
+                <p>+1 613-890-0524</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="icon">
+                <i class="fa fa-envelope"></i>
+              </div>
+              <div class="text">
+                <h3>Email ID</h3>
+                <p>Thejashreem3@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="formBx">
+          <form>
+            <h3>Message Me</h3>
+            <input type="text" name="" placeholder="Full Name" Id="ContactName"/>
+            <input type="email" name="" placeholder="Email Address" Id="ContactEmailId" />
+            <textarea placeholder="Your Message"></textarea>
+            <input type="submit" value="Send" onclick="ContactSubmit()" />
+          </form>
+        </div>
+      </div>
+    </section>
+    <div class="copyright">
+      <p>Copyright 2020. All Rights Reserved.</p>
+    </div>
+  </body>
+</html>
